@@ -37,7 +37,7 @@ Serial.println(wait);
     // 0 refers to the first IC on the wire
     wait=0;
     }	  	  
-    delay(100);//doulepse ok me delay 1000 kai 500
+    delay(100);//delay
   LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);	  
   wait++;
   //delay(500);
