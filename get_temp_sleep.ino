@@ -10,7 +10,7 @@ OneWire oneWire(ONE_WIRE_BUS);
  
 // Pass our oneWire reference to Dallas Temperature.
 DallasTemperature sensors(&oneWire);
- int wait=0;
+ int wait=1;
 void setup(void)
 {
   // start serial port
