@@ -25,7 +25,8 @@ GSM_SMS sms;
 const int sensorPin = A2;
 // Array to hold the number for the incoming call
 char numtel[20];
-int tmp = temp();
+float tmp = gettemp();
+//float gettemp();
 
 
 void setup()
@@ -48,7 +49,7 @@ void setup()
     else
     {
       Serial.println("Not connected");
-      
+     
       delay(1000);
     }
   }
@@ -56,7 +57,7 @@ void setup()
   // This makes sure the modem correctly reports incoming events
   vcs.hangCall();
   Serial.println("GSM ok");
-  Serial.println("pere thl");
+  Serial.println("pare thl");
 }
 
 void loop()
@@ -85,13 +86,11 @@ void loop()
 //----------------
        // sms text
   Serial.print("h thermokrasia einai: ");
-  b = gettemp();
-  Serial.print(b);
+  Serial.print(tmp);
  
   // send the message
   sms.beginSMS(numtel);
   sms.print(tmp);
-  //sms.print(txtMsg);
   sms.endSMS();
   Serial.println("\nto minima stalthike!\n");
 //---------------
@@ -101,23 +100,19 @@ void loop()
   delay(1000);
 }
 
-
-void gettemp()
+float gettemp()
 {
   // call sensors.requestTemperatures() to issue a global temperature
   // request to all devices on the bus
-  Serial.print(" Requesting temperatures...");
+  //Serial.print(" Requesting temperatures...");
   sensors.requestTemperatures(); // Send the command to get temperatures
-  Serial.println("DONE");
-
-  Serial.print("Temperature for Device 1 is: ");
- 
+  //Serial.print("Temperature for Device 1 is: ");
   //Serial.print(sensors.getTempCByIndex(0)); // Why "byIndex"?
-    float a = sensors.getTempCByIndex(0);
-    Serial.print(a);
-    
+   return float (sensors.getTempCByIndex(0));
     // You can have more than one IC on the same bus.
     // 0 refers to the first IC on the wire
  delay (10000);
 }
+
+
 
