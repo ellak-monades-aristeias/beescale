@@ -26,7 +26,7 @@ const int sensorPin = A2;
 // Array to hold the number for the incoming call
 char numtel[20];
 float tmp = gettemp();
-//float gettemp();
+//float gettemp(); 
 
 
 void setup()
