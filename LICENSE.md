@@ -1,1 +1,1 @@
-hello 
+copyleft
