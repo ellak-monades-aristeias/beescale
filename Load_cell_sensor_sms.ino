@@ -13,10 +13,8 @@ GSMVoiceCall vcs;
 GSM_SMS sms;
 Hx711 scale(A4, A5);
 
-//const int sensorPin = A0;
 // Array to hold the number for the incoming call
 char numtel[20];
-//int tmp = temp();
 
 void setup()
 {
@@ -44,7 +42,7 @@ void setup()
   // This makes sure the modem correctly reports incoming events
   vcs.hangCall();
   Serial.println("GSM ok");
-  Serial.println("pere thl");
+  Serial.println("pare thl");
 }
 
 void loop()
@@ -72,30 +70,20 @@ void loop()
 
 //----------------
        // sms text
-  //Serial.print("h thermokrasia einai: ");
+ 
  Serial.print("ta kg einai: ");       
-// Serial.println(tmp);
+ Serial.print(scale.getGram());
  
  // send the message
  sms.beginSMS(numtel);
-// sms.print("h therm einai: ");
- //sms.println(tmp);
  sms.print("ta kg einai: ");       
  sms.println(scale.getGram());
-  //sms.print(txtMsg);
  sms.endSMS();
-  Serial.println("\nto minima stalthike!\n");
+  Serial.println("\n to minima stalthike!\n");
 //---------------
   vcs.hangCall();
       break;
   }
   delay(1000);
 }
-
-///int temp()
-//{
-//  return int ((((analogRead(sensorPin) / 1024.0) * 5.0) - .45) * 100);
- // return int ((5.0 * analogRead(sensorPin) * 100.0) / 1024);
-//}
-
 
