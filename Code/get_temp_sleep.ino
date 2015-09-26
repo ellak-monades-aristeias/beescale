@@ -24,7 +24,7 @@ void loop(void) {
 	
 Serial.print("wait =");
 Serial.println(wait);
-  if(wait>=8){
+  if(wait>=8){ // multiply the sleeping time, 8 means, 8*8s= 64s, period between temperature measurements
      // call sensors.requestTemperatures() to issue a global temperature
   // request to all devices on the bus
   Serial.print(" Requesting temperatures...");
@@ -35,7 +35,7 @@ Serial.println(wait);
   Serial.print(sensors.getTempCByIndex(0)); // Why "byIndex"? 
     // You can have more than one IC on the same bus. 
     // 0 refers to the first IC on the wire
-    wait=0;
+    wait=1;
     }	  	  
     delay(100);//delay
   LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);	  
