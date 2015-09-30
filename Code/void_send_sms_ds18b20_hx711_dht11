@@ -230,19 +230,13 @@ Serial.println(wait);
   sms.print("grammaria ");
   sms.print(" ,hum=");
   sms.print(humid);
+  sms.print("%");
   sms.print(" ,temp=");
   sms.print(therm);
   sms.endSMS();
   Serial.println("\nto minima stalthike!\n");
   
 //------------
-Serial.print("therm in main is ");
-  Serial.println(therm);
- Serial.print("maza in main is ");
-  Serial.println(maza);
-Serial.print("humid in main is ");
-  Serial.println(humid);
-
 
   wait=1;
    send_times++;
