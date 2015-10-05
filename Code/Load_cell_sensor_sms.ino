@@ -1,3 +1,4 @@
+```Arduino
 // Include the GSM library
 #include <GSM.h>
 #include <Hx711.h>
@@ -86,4 +87,4 @@ void loop()
   }
   delay(1000);
 }
-
+```
