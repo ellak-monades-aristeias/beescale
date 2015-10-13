@@ -241,7 +241,7 @@ Serial.println(wait);
   wait=1;
    send_times++;
     }	  	  
-    delay(1000);//doulepse ok me delay 1000 kai 500
+    delay(1000);//delay
   LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);	  
   wait++;
   //delay(500);
