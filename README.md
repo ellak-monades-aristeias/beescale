@@ -68,10 +68,10 @@ The beekeeper wants to be informed about the weight of his hives, that means abo
 
 So he can :
 
-  *__know if the nectar flow is over and he should go to pick up the honey so he can save lot ot fuels__
-  *__know if the bees needs to be feeding at winter time__
-  *__compare colony strength and productivity by seeing which colonies are most productive throughout the season__
-  *__know the weather conditions of the area__
+  * __know if the nectar flow is over and he should go to pick up the honey so he can save lot ot fuels__
+  * __know if the bees needs to be feeding at winter time__
+  * __compare colony strength and productivity by seeing which colonies are most productive throughout the season__
+  * __know the weather conditions of the area__
 
 In cocnlusion, depending on the message, he can take the best decision about his actions
 
