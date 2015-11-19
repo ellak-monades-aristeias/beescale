@@ -16,7 +16,7 @@ O μικροεπεξεργαστής Arduino ειναι μια ανοιχτού-
 * __Αισθητήρας Υγρασίας: DHT11__
 * __Αισθητήρας μέτρησης βάρους: Load cell 100 kg__
 * __Ενισχυτής σήματος: DFRobot HX711__
-* __Πρόσθετο PCB για σύνδεση στο δίκτυο κινητής τηλεφωνίας: Adafruit Gsm Shield __ 
+* __Πρόσθετο PCB για σύνδεση στο δίκτυο κινητής τηλεφωνίας: Adafruit Gsm Shield__ 
 * __Κεραία για το gsm shield: Mini GSM/Cellular Quad-Band Antenna - 2dBi SMA Plug__
 
 
