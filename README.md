@@ -64,7 +64,7 @@ O μικροεπεξεργαστής Arduino ειναι μια ανοιχτού-
 
 ##English description of Beescale
 
-The beekeeper wants to be informed about the weight of his hives, that means about how much honey there is inside the beehive. The beescale is set to send an SMS periodically to the beekeper (once a day or more) including the kilograms the temperature and the humidity of the hive.
+The beekeeper wants to be informed about the weight of his hives, that means about how much honey there is inside the beehive. The beescale is set to send an SMS periodically to the beekeeper (once a day or more) including the kilograms the temperature and the humidity of the hive.
 
 So he can :
 
@@ -73,6 +73,6 @@ So he can :
   * __compare colony strength and productivity by seeing which colonies are most productive throughout the season__
   * __know the weather conditions of the area__
 
-In cocnlusion, depending on the message, he can take the best decision about his actions
+In conclusion, depending on the message, he can take the best decision about his actions
 
 You can see full details and tutorials at our [English Wiki](https://github.com/ellak-monades-aristeias/beescale/wiki)
