@@ -55,15 +55,14 @@ O μικροεπεξεργαστής Arduino ειναι μια ανοιχτού-
 
 Στη σελίδα του [Wiki](https://github.com/ellak-monades-aristeias/beescale/wiki/) υπάρχει οδηγός που αναλύει βήμα προς βήμα πως μπορείτε να κατασκευάσετε ένα πρωτότυπο beescale.
 
-Πίνακας Παραδοτέων
+|Πίνακας Παραδοτέων||
+|Παραδοτέο|	URL|
 
-Παραδοτέο	URL
+|Πηγαίος Κώδικας υλοποίησης της πρότασης έργου|	https://github.com/ellak-monades-aristeias/beescale/tree/master/Code|
 
-Πηγαίος Κώδικας υλοποίησης της πρότασης έργου:	https://github.com/ellak-monades-aristeias/beescale/tree/master/Code
+|Συνδεσμολογία των κυκλωμάτων του συστήματος με γραφήματα|https://github.com/ellak-monades-aristeias/beescale/tree/master/Hardware|
 
-Συνδεσμολογία των κυκλωμάτων του συστήματος με γραφήματα: https://github.com/ellak-monades-aristeias/beescale/tree/master/Hardware
-
-Αναλυτικός οδηγός κατασκευής:	https://github.com/ellak-monades-aristeias/beescale/wiki/%CE%9A%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%8D%CE%B1%CF%83%CE%B5%20%CF%84%CE%BF%20%CE%B4%CE%B9%CE%BA%CF%8C%20%CF%83%CE%BF%CF%85%20beescale
+|Αναλυτικός οδηγός κατασκευής|	https://github.com/ellak-monades-aristeias/beescale/wiki/%CE%9A%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%8D%CE%B1%CF%83%CE%B5%20%CF%84%CE%BF%20%CE%B4%CE%B9%CE%BA%CF%8C%20%CF%83%CE%BF%CF%85%20beescale|
 
 
 
